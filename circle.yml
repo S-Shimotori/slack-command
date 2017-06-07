@@ -12,4 +12,4 @@ deployment:
     branch: 0.1-dev
     commands:
       - ./gradlew jar
-      - aws lambda update-function-code --region ap-northeast-1 --function-name inouelab-slack-command_elect --zip-file fileb://build/libs/slack-command-0.1-alpha.jar
+      - aws lambda update-function-code --region ap-northeast-1 --function-name inouelab-slack-command_elect --zip-file fileb://build/libs/slack-command.jar
