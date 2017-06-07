@@ -1,0 +1,10 @@
+{
+  "resource": "/hoge_resource",
+  "path": "/hoge_path",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json,*/*"
+  },
+  "body": "command=%2Fhoge&text=",
+  "isBase64Encoded": false
+}
