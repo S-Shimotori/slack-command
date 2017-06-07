@@ -7,6 +7,7 @@ dependencies:
 test:
   override:
     - ./gradlew test
+    - ./gradlew ktlint
 deployment:
   development:
     branch: 0.1-dev
