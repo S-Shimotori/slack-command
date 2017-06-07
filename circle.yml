@@ -1,0 +1,13 @@
+machine:
+  java:
+    version: oraclejdk8
+test:
+  override:
+    - ./gradlew test
+deployment:
+  development:
+    branch: 0.1-dev
+    commands:
+      - ./gradlew jar
+      - pip install awscli
+      - aws lambda update-function-code --function-name inouelab-slack-command_elect --zip-file fileb://build/libs/slack-command-0.1-alpha.jar
