@@ -3,8 +3,8 @@ package net.terminal_end
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Parser
 import org.junit.Test
-import org.hamcrest.MatcherAssert.*
-import org.hamcrest.Matchers.*
+import org.hamcrest.MatcherAssert.assertThat
+import org.hamcrest.Matchers.`is`
 
 /**
  * Created by S-Shimotori on 6/7/17.

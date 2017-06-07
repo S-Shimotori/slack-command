@@ -40,7 +40,7 @@ class Request private constructor (
                 val isBase64Encoded = map["isBase64Encoded"]!! as Boolean
 
                 Request(resource, path, httpMethod, headers, body, isBase64Encoded)
-            } catch(e: Exception) {
+            } catch (e: Exception) {
                 null
             }
         }

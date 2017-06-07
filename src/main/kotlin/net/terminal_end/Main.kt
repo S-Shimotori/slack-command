@@ -1,7 +1,7 @@
 package net.terminal_end
 
 import com.amazonaws.services.lambda.runtime.Context
-import java.util.*
+import java.util.Random
 import org.apache.log4j.Logger
 
 /**
