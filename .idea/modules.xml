@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/slack-command.iml" filepath="$PROJECT_DIR$/.idea/modules/slack-command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slack-command_main.iml" filepath="$PROJECT_DIR$/.idea/modules/slack-command_main.iml" group="slack-command" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slack-command_test.iml" filepath="$PROJECT_DIR$/.idea/modules/slack-command_test.iml" group="slack-command" />
     </modules>
   </component>
 </project>
