@@ -42,7 +42,9 @@ private fun elect(text: String?): String? {
     if (args.isEmpty()) {
         return null
     }
-    val result = args[Random().nextInt(args.size)]
+    val random = Random()
+    random.nextInt()
+    val result = args[random.nextInt(args.size)]
     logger.info("result: $result")
     return result
 }
